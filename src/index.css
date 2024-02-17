@@ -1,0 +1,23 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.main {
+		@apply mx-auto my-5 w-[90%] h-screen;
+	}
+}
+
+body {
+	background-color: beige;
+}
+
+.swiper-button-prev {
+	color: black; /* Change this to the color you want */
+}
+
+.swiper-button-next {
+	color: black; /* Change this to the color you want */
+}
